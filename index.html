@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Milena dos moveis e Eletros</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Parte de cima do site */
+        .topo {
+           button {
+    background-color: #FF6600;
+    color: white;
+}
+
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            padding: 0 60px;
+        }
+
+        /* Logo */
+        .logo {
+            color: orangered;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* Menu */
+        nav {
+        
+    background-color: orange;
+}
+
+        }
+
+        nav a {
+            color: orange;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #00aaff;
+        }
+
+        /* Botão */
+        button {
+            background-color: #00aaff;
+            color: white;
+
+            border: none;
+            padding: 12px 22px;
+            border-radius: 6px;
+
+            cursor: pointer;
+        }
+
+        /* Banner */
+        .banner {
+            height: 500px;
+
+            background: linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ), url("imagem.jpg");
+
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            align-items: center;
+
+            padding-left: 60px;
+            color: white;
+        }
+
+        .banner h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .banner p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        .botao {
+            display: inline-block;
+
+            background-color: #00aaff;
+            color: white;
+
+            text-decoration: none;
+
+            padding: 14px 25px;
+            border-radius: 6px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Parte superior do site -->
+    <header>
+
+        <!-- Menu -->
+        <div class="topo">
+
+            <div class="logo">
+                Milena dos Moveis e Eletros
+            </div>
+
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Sobre</a>
+                <a href="#">Serviços</a>
+                <a href="#">Contato</a>
+            </nav>
+
+            <button>
+                Entrar
+            </button>
+
+        </div>
+
+        <!-- Banner -->
+        <section class="banner">
+
+            <div>
+                <h1>bem-vindos a maior loja de
+                     moveis e eletros do brasil</h1>
+
+                <p>
+                    Aqui voce encontra tudo para o seu lar .
+                </p>
+
+                <a href="#" class="botao">
+                    Saiba mais
+                </a>
+            </div>
+
+        </section>
+
+    </header>
+
+</body>
+
+</html>
